@@ -1,13 +1,15 @@
 # OpenStock – Hệ thống Quản lý Kho Hàng (WMS)
 
-![OpenStock Logo](https://via.placeholder.com/800x400?text=OpenStock+WMS+-+Dashboard)  
 *Hệ thống quản lý kho hàng hiện đại, mã nguồn mở – Đồ án môn Phát triển Ứng dụng Mã nguồn mở – BDU 2025*
 
 ## Giới thiệu dự án
 
-OpenStock là hệ thống quản lý kho hàng (Warehouse Management System - WMS) được xây dựng với mục tiêu hỗ trợ doanh nghiệp quản lý sản phẩm, tồn kho, nhập/xuất kho và báo cáo một cách hiệu quả.
+Dự án được phát triển như một phần của đồ án môn **Phát triển Ứng dụng Mã nguồn mở** – Trường Đại học Bình Dương năm 2025.
 
-Dự án được phát triển bởi nhóm LTD – Trường Đại học Bà Rịa - Vũng Tàu.
+Mục tiêu:
+- Xây dựng hệ thống quản lý kho hiện đại với giao diện thân thiện
+- Áp dụng kiến thức FastAPI, React, database migrations và authentication
+- Tạo nền tảng có thể mở rộng, dễ bảo trì và triển khai
 
 ## Tính năng chính
 
@@ -34,17 +36,20 @@ Dự án được phát triển bởi nhóm LTD – Trường Đại học Bà R
 ### Cài đặt
 
 1. Clone dự án
+
 git clone https://github.com/HuynhLuongChiDung/Project_LTD.git
 cd Project_LTD
 
-2. Chạy Backend
+3. Chạy Backend
+
 cd kanban-todo-api
 python -m venv .venv
 source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 
-3. Chạy Frontend
+4. Chạy Frontend
+
 cd ../inventory-frontend
 npm install
 npm run dev
