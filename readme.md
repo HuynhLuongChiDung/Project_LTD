@@ -36,20 +36,17 @@ Mục tiêu:
 ### Cài đặt
 
 1. Clone dự án
-
-git clone https://github.com/HuynhLuongChiDung/Project_LTD.git
-cd Project_LTD
+-git clone https://github.com/HuynhLuongChiDung/Project_LTD.git
+-cd Project_LTD
 
 3. Chạy Backend
-
-cd kanban-todo-api
-python -m venv .venv
-source .venv/bin/activate    # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
+-cd kanban-todo-api
+-python -m venv .venv
+-source .venv/bin/activate    # Windows: .venv\Scripts\activate
+-pip install -r requirements.txt
+-python main.py
 
 4. Chạy Frontend
-
-cd ../inventory-frontend
-npm install
-npm run dev
+-cd ../inventory-frontend
+-npm install
+-npm run dev
