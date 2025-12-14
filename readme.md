@@ -26,7 +26,7 @@ Mục tiêu:
 - **Frontend**: React + Vite + Tailwind CSS (hoặc CSS tùy chỉnh)
 - **Database**: SQLite (dễ chạy local) – có thể chuyển sang PostgreSQL
 - **Authentication**: JWT + Role-based Authorization
-- **Các thư viện chính**: SQLAlchemy, Alembic, pydantic-settings, Recharts (biểu đồ)
+- **Các thư viện chính**: Alembic, pydantic-settings, Recharts (biểu đồ)
 
 ## Hướng dẫn cài đặt và chạy dự án
 
